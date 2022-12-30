@@ -1,0 +1,52 @@
+@import url("simpledotcss/simple.min.css");
+
+code.in {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  font-weight: bold;
+}
+
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.error{
+  background: lightpink;
+}
+
+dl {
+  display: block;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+a.active {
+  border-color: var(--code) !important;
+}
+body {
+  overflow-y: scroll;
+}
+dd a {
+  font-weight: bold;
+}
+a[role=button]:visited {
+  color: var(--bg);
+}
+.row {
+  display: flex;
+}
+.col2 {
+  flex: 50%;
+}
