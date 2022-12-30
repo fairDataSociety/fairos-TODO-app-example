@@ -58,9 +58,9 @@ $ cp .env.example .env
 $ curl -s -XPOST http://localhost:1635/stamps/10000000/18
 ```
 
-#### Update `VITE_POSTAGE_BATCH_ID`
+#### Update `VITE_BEE_POSTAGE_BATCH_ID`
 
-Update the `VITE_POSTAGE_BATCH_ID` in your `.env` file with the "batchId" returned in the previous step.
+Update the `VITE_BEE_POSTAGE_BATCH_ID` in your `.env` file with the "batchId" returned in the previous step.
 
 ### Run application
 **Requirements:** `fdp-play` must be running already! 
