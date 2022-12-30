@@ -1,12 +1,11 @@
-# Todos with `fdp-storage` and `fdp-play`
+# Todos with FairOS and FDP Play
 
-An web3 Todos application built using `fdp-storage` and `fdp-play`.
+An web3 Todos application built using FairOS REST API and FDP Play.
 
 ## Roadmap
 
 - improve dx w.r.t initial setup and env
 - improve ui/ux
-- bump `fdp-storage` version when released (currently uses "github:fairDataSociety/fdp-storage#fix/bee-js-762")
 - make todos editable (https://github.com/fairDataSociety/fdp-storage/issues/192)
 
 ## Local Development Setup
@@ -34,11 +33,11 @@ $ fdp-play start --fairos
 
 #### Clone the repo
 ```shell
-$ git clone https://github.com/rampall/fdp-storage-todos.git
+$ git clone https://github.com/rampall/fairos-todos-example.git
 ```
 
 ```shell
-$ cd fdp-storage-todos/
+$ cd fairos-todos-example
 ```
 
 ### Install dependencies
@@ -74,12 +73,10 @@ The application can be viewed at - http://localhost:5173/
 
 ## Screenshots
 
-### Login / Import Wallet Page:
+### Login / Register Page:
 
-![image](https://user-images.githubusercontent.com/520570/208272229-c78d1c0c-d191-4e79-b6b8-9affc9092321.png)
+![image](https://user-images.githubusercontent.com/520570/210035932-433b63e8-7750-4684-8cd7-61b9ced6c3ca.png)
 
 ### Todo List:
 
-![image](https://user-images.githubusercontent.com/520570/208272239-65ee9554-ec47-428f-b84c-5b5bb769a98c.png)
-
-
+![image](https://user-images.githubusercontent.com/520570/210035959-ed32a5de-4e7f-48b2-9433-c2c3cd9cd273.png)
