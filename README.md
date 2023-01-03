@@ -33,11 +33,11 @@ $ fdp-play start --fairos
 
 #### Clone the repo
 ```shell
-$ git clone https://github.com/rampall/fairos-todos-example.git
+$ git clone https://github.com/fairDataSociety/fairos-TODO-app-example.git
 ```
 
 ```shell
-$ cd fairos-todos-example
+$ cd fairos-TODO-app-example
 ```
 
 ### Install dependencies
